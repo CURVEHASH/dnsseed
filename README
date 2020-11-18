@@ -43,7 +43,7 @@ COMPILING
 Compiling will require boost and ssl.  On debian systems, these are provided
 by `libboost-dev` and `libssl-dev` respectively.
 
-$ make
+make -j$(nproc)
 
 This will produce the `dnsseed` binary.
 
